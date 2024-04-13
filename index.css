@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'keqima';
+    src: url('./assets/fonts/keqima/Keqima.ttf') format('truetype'), url('./assets/fonts/keqima/Keqima.otf');
+}
+
+
+
+html {
+    font-family: 'keqima';
+}
+
+body {
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
